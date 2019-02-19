@@ -8,8 +8,8 @@
 
 >列表
 
-####无序列表
-<ul> Unordered List
+#### 无序列表
+`<ul>` Unordered List
 ```html
 <ul>
   <li></li>
@@ -18,10 +18,10 @@
 ```
 ul和li一般嵌套使用
 
-####有序列表
-<ol> Ordered List
+#### 有序列表
+`<ol>` Ordered List
 
-####嵌套列表
+#### 嵌套列表
 
 ```html
 <p>金州勇士队的全明星球员包括：<p>
@@ -40,14 +40,14 @@ ul和li一般嵌套使用
 ```
 >字体样式
 
-####斜体
+#### 斜体
 <em></em>
 
 ```html
 <p>我<em>祝福</em>大家找到好工作。</p>
 ```
 
-####加粗
+#### 加粗
 <strong></strong>
 ```html
 <p>靠你了，明天<strong>不要</strong>迟到!</p>
@@ -55,7 +55,7 @@ ul和li一般嵌套使用
 
 >描述列表
 
-<dl> <dt> <dd>
+`<dl> <dt> <dd>`
 
 ```html
 <dl>
@@ -70,60 +70,60 @@ ul和li一般嵌套使用
 
 >超链接a标签
 
-####简单链接
+#### 简单链接
 ```html
 <a href="https://github.com/zhangcl0531">张XX</a>
 ```
 
-####title 属性
+#### title 属性
 
 ```html
 <a href="https://github.com/zhangcl0531" title="菜鸟自嗨网站">张XX</a>
 ```
 
-####外部链接-链接跳转到新页面
+#### 外部链接-链接跳转到新页面
 将 target 设置成 _blank时，点击链接浏览器会新开一个 Tab 打开该网页
 
 ```html
 <a href="https://github.com/zhangcl0531" title="菜鸟自嗨网站" target="_blank">张XX</a>
 ```
-####返回顶部链接
+#### 返回顶部链接
 ```html
 <a href="#">返回页面顶部</a>
 ```
-####刷新网页
+#### 刷新网页
 ```html
 <a href="">返回页面顶部</a>
 ```
-####点击标签什么都不做
+#### 点击标签什么都不做
 ```html
 <a href="javascript:;"></a>
 ```
 
-####文档内部链接
-用于定位到文档的某一部分，<a> 的 href 要对应文档内某个元素的 id（id 的值在文档内要唯一）
+#### 文档内部链接
+用于定位到文档的某一部分,`<a>`的 href 要对应文档内某个元素的 id（id 的值在文档内要唯一）
 
 ```html
 <a href="#email链接">Email链接</a>
 ```
-####图片链接
+#### 图片链接
 ```html
 <a href="https://github.com/zhangcl0531" title="菜鸟自嗨网站">
    <img src="https://avatars3.githubusercontent.com/u/39626511?s=460&v=4" height="100">
 </a>
 ```
 
-####下载链接
+#### 下载链接
 ```html
 <a href="https://angular.io/resources/images/logos/angular/angular.svg" download>下载 Angular Logo</a>
 ```
 
-####电话链接
+#### 电话链接
 ```html
 <a href="tel:+861588xxxxxxx">+86 1588xxxxxxx</a>
 ```
 
-####Email链接
+#### Email链接
 ```html
 <a href="mailto:xidada@china.gov.cn">发封邮件给习大大</a> <br>
 <a href="mailto:xidada@china.gov.cn?cc=pengliyuan@china.gov.cn">发封邮件给习大大并抄送第一夫人</a>
@@ -135,7 +135,7 @@ ul和li一般嵌套使用
 ```html
 <img src="https://vuejs.org/images/logo.png" alt="Vue.js logo" width="200">
 ```
-####带说明的图像
+#### 带说明的图像
 ```html
 <figure>
   <img src="https://avatars3.githubusercontent.com/u/39626511?s=460&v=4"
@@ -189,7 +189,7 @@ ul和li一般嵌套使用
   </tbody>
 </table>
 ```
-####colgroup 设置表格宽度，样式
+#### colgroup 设置表格宽度，样式
 放在thead上面，表有多少行，就写多少col标签
 ```html
 <colgroup>
@@ -199,8 +199,10 @@ ul和li一般嵌套使用
    <col width=100>
 </colgroup>
 ```
->视频音频
-####视频 <video>
+> 视频音频
+
+#### 视频 <video>
+
 ```html
 <video src="nba-finals2017-game-1.webm" controls>
   <p>你的浏览器不支持 HTML5 视频。</p> 
@@ -228,7 +230,7 @@ ul和li一般嵌套使用
 </video>
 ```
 
-####音频 <audio>
+#### 音频 <audio>
 ```html
 <audio controls>
   <source src="viper.mp3" type="audio/mp3">
@@ -238,7 +240,7 @@ ul和li一般嵌套使用
 ```
 
 >form表单
-####form标签属性
+#### form标签属性
 - action： 表单提交的地址
 - method：提交保单的方法
 - target：在何处打开action
@@ -305,10 +307,10 @@ ul和li一般嵌套使用
 </html>
 ```
 
-<select name="city" multiple>  支持多选
-<textarea name="article"  resize:none> 设置不可改变文本框大小
+`<select name="city" multiple>  支持多选`<br>
+`<textarea name="article"  resize:none> 设置不可改变文本框大小`
 
-#####post vs get
+##### post vs get
 - 表象不同，get把提交的数据url可以看到，post看不到
 - 原理不同，get 是拼接 url， post 是放入http 请求体中
 - 提交数据量不同，get最多提交1k数据，浏览器的限制。post理论上无限制，受服务器限制
